@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+
+header{
+  height: 600px;
+  background-color: #0c325a;
+  background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+  background-size: 1000px 400px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.container{
+  width: 100%;
+  margin: 0 150px;
+  max-width: 1200px;
+}
+
+.header-top {
+  height: 70px;
+  line-height: 100px;
+  line-height: 50px;
+}
+
+.header-right{
+  float: right;
+  margin-top: -50px;
+  margin-right: -400px;
+}
+
+.logo img{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+nav{
+  float: left;
+  margin: 0px 200px;
+  margin-top: -69px;
+}
+
+li{
+  float: left;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.menù{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 10px 0px;
+  margin: 0 10px;
+}
+
+.blue0{
+  color: white;
+  font-size: 13px;
+  border: 1px solid #0c325a;
+  background-color: #0c325a;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.blue{
+  color: white;
+  border: 1px solid white;
+  background-color: #0c325a;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.little-green{
+  color: white;
+  border: 1px solid #7cbb02;
+  background-color: #7cbb02;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+
+.header-bottom {
+ height: 400px;
+ position: relative;
+}
+
+.scegli{
+  width: 50%;
+  position: absolute;
+  margin-top: 180px;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+}
+
+.big-green{
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  border: 1px solid #7cbb02;
+  background-color: #7cbb02;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+
+
+/* MAIN */
+.container1{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main{
+  text-align: center;
+  background-color: #d3d3d3;
+  padding: 40px 0;
+}
+
+h2{
+  color: black;
+  margin-bottom: 10px;
+}
+
+p{
+  color: #808080;
+  line-height: 20px;
+}
+
+
+/* FOOTER */
+
+.section{
+  width: 33.3333%;
+  padding: 50px 50px;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.section img{
+  height: 200px;
+}
+
+h3{
+  color: #7cbb02;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+hr{
+  width: 50px;
+  margin: 20px auto;
+}
